@@ -1,1 +1,2 @@
-web: apache2ctl -D FOREGROUND -k start
+web: nginx -g "daemon off;"
+
