@@ -9,9 +9,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.2",
-        "laravel/tinker": "^2.8",
-        "ext-fileinfo": "*",
-        "ext-dom": "*"
+        "laravel/tinker": "^2.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -58,6 +56,11 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
+        "platform": {
+            "ext-xml": "1.0",
+            "ext-dom": "1.0",
+            "ext-fileinfo": "1.0"
+        },   
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
