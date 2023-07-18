@@ -12,7 +12,7 @@ value='public'
 
 [[build.env]]
 name='BP_PHP_INI_SCAN_DIR'
-value='php.ini.d/extension.ini'
+value='php.ini.d'
 
 
 
