@@ -10,6 +10,11 @@ value='--prefer-dist --ignore-platform-reqs'
 name='BP_PHP_WEB_DIR'
 value='public'
 
+[[build.env]]
+name='BP_PHP_INI_SCAN_DIR'
+value='php.ini.d/extension.ini'
+
+
 
 
 
