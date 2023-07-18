@@ -11,7 +11,7 @@ name='BP_PHP_WEB_DIR'
 value='public'
 
 [[build.env]]
-name='BP_PHP_INI_SCAN_DIR'
+name='BP_PHP_EXTENSION_DIR'
 value='php.ini.d'
 
 
