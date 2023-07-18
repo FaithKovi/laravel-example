@@ -1,1 +1,1 @@
-web: php artisan serve --port=3005
+web: nginx -g "daemon off;"
