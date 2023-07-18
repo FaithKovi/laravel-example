@@ -60,8 +60,7 @@
             "ext-xml": "1.0",
             "ext-dom": "1.0",
             "ext-fileinfo": "1.0",
-            "ext-xmlwriter": "1.0",
-            "php-dom": "*"
+            "ext-xmlwriter": "1.0"
         },   
         "allow-plugins": {
             "pestphp/pest-plugin": true,
