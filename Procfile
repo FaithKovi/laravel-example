@@ -1,2 +1,1 @@
-web: nginx -g "daemon off;"
-
+web: heroku-php-nginx public/
