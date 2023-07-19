@@ -4,7 +4,12 @@ value='nginx'
 
 [[build.env]]
 name='BP_COMPOSER_INSTALL_OPTIONS'
-value ='--prefer-dist --ignore-platform-reqs'
+value = '''
+  #!/bin/bash
+  cp .env.example .env
+  composer install --prefer-dist --ignore-platform-reqs
+  php artisan cache:clear
+'''
 
 
 [[build.env]]

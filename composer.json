@@ -11,10 +11,7 @@
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
         "yosymfony/toml": "v1.0.0",
-        "ext-xml": "*",
-        "ext-dom": "*",
-        "ext-fileinfo": "*",
-        "ext-xmlwriter": "*"        
+        "ext-fileinfo": "*"    
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
