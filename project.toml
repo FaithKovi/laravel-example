@@ -4,12 +4,12 @@ value='nginx'
 
 [[build.env]]
 name='BP_COMPOSER_INSTALL_OPTIONS'
-value = [
-  'cp .env.example .env',
-  '--prefer-dist --ignore-platform-reqs',
-  'php artisan cache:clear'
-]
+value ='--prefer-dist --ignore-platform-reqs'
 
 [[build.env]]
 name='BP_PHP_WEB_DIR'
 value='public'
+
+[[build.env]]
+name ='BP_OTHER_COMMANDS'
+value ='cp .env.example .env'
