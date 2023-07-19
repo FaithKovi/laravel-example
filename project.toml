@@ -1,6 +1,6 @@
 [[build.env]]
 name='BP_PHP_SERVER'
-value='nginx'
+value='nginx -p 8000:3005'
 
 [[build.env]]
 name='BP_COMPOSER_INSTALL_OPTIONS'
