@@ -4,7 +4,7 @@ value='nginx'
 
 [[build.env]]
 name='BP_COMPOSER_INSTALL_OPTIONS'
-value='--prefer-dist --ignore-platform-reqs'
+value=['--prefer-dist', '--ignore-platform-reqs']
 
 [[build.env]]
 name='BP_PHP_WEB_DIR'
